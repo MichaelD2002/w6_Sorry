@@ -6,9 +6,9 @@ import io.cucumber.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features="src/test/Feature",
-        glue= "StepDefinition",
-        plugin= {"html:target/HTML_report.html"}
+        features = "src/test/java/Feature",
+        glue = "StepDefinition",
+        plugin ={"html:target/HTML_report.html"}
 )
 public class TestRunner {
 }
